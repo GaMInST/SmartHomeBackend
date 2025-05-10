@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net8.0\ApiEndpoints.json" />
+    <Content Include="obj\Debug\net8.0\EndpointInfo\SmartHomeBackend.json" />
+    <Content Include="obj\Debug\net8.0\SmartHomeBackend.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.references.upToDateCheck.txt" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.removed.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\SmartHomeBackend.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="kwolo.tuya.net" Version="1.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="TuyaNet" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net8.0\" />
+    <Folder Include="bin\Release\net8.0\" />
+    <Folder Include="obj\Debug\net8.0\refint\" />
+    <Folder Include="obj\Debug\net8.0\ref\" />
+    <Folder Include="obj\Debug\net8.0\staticwebassets\" />
+    <Folder Include="obj\Release\net8.0\refint\" />
+    <Folder Include="obj\Release\net8.0\ref\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net8.0\apphost.exe" />
+    <None Include="obj\Debug\net8.0\EndpointInfo\SmartHomeBackend.OpenApiFiles.cache" />
+    <None Include="obj\Debug\net8.0\SmartHomeBackend.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\SmartHomeBackend.assets.cache" />
+    <None Include="obj\Debug\net8.0\SmartHomeBackend.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\SmartHomeBackend.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net8.0\SmartHomeBackend.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\SmartHomeBackend.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\SmartHomeBackend.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net8.0\SmartHomeBackend.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net8.0\SmartHomeBackend.assets.cache" />
+    <None Include="obj\Release\net8.0\SmartHomeBackend.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\net8.0\SmartHomeBackend.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\SmartHomeBackend.csproj.nuget.g.props" />
+    <None Include="obj\SmartHomeBackend.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+</Project>
